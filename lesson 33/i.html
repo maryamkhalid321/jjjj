@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>click the button to excute js</p>
+    <button onclick="h()"> try it</button>
+    <p id="result"></p>
+    <script>
+        function h() {
+            var x = 10;
+            var y = 20;
+            var a = eval("x + y") + "<br>";
+            var b = eval("2 * 2") + "<br>";
+            var c = eval("y - x") + "<br>";
+         var res = a + b + c;
+         document.getElementById("result").innerHTML = res;
+        }
+        var no1 = 93.08
+        var no2 = 99
+        document.write( no1 + no2)
+        document.write("<br>")
+        var no3 = "2"
+        var no4 = "4"
+        document.write(no3 + no4)
+        document.write (typeof (no3))
+    </script>
+</body>
+</html>
